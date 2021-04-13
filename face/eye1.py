@@ -48,5 +48,5 @@ def eye1():
     disp.show()
     time.sleep(0.1)
 
-while True:
-    eye1()
+#while True:
+eye1()

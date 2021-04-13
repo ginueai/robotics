@@ -39,6 +39,12 @@ def eye3():
     draw.rectangle((0, 0, width, height), outline=0, fill=0)    
     #draw eye
     draw.rectangle((24, 5, 50, 50), outline=1, fill=255)
+    draw.rectangle((78, 5, 104, 50), outline=1, fill=255)
+    disp.image(image)
+    disp.show()
+    time.sleep(0.1)
+    
+    draw.rectangle((24, 5, 50, 50), outline=1, fill=255)
     draw.rectangle((78, 10, 104, 45), outline=1, fill=255)
     disp.image(image)
     disp.show()
@@ -56,8 +62,26 @@ def eye3():
     draw.rectangle((78, 30, 104, 30), outline=1, fill=255)
     disp.image(image)
     disp.show()
+    time.sleep(0.3)
+    
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    draw.rectangle((24, 5, 50, 50), outline=1, fill=255)
+    draw.rectangle((78, 20, 104, 35), outline=1, fill=255)
+    disp.image(image)
+    disp.show()
+    time.sleep(0.1)
+    
+    draw.rectangle((24, 5, 50, 50), outline=1, fill=255)
+    draw.rectangle((78, 10, 104, 45), outline=1, fill=255)
+    disp.image(image)
+    disp.show()
     time.sleep(0.1)
 
+    draw.rectangle((24, 5, 50, 50), outline=1, fill=255)
+    draw.rectangle((78, 5, 104, 50), outline=1, fill=255)
+    disp.image(image)
+    disp.show()
+    time.sleep(0.1)
 
-while True:
-    eye3()
+#while True:
+eye3()
