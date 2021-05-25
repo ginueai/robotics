@@ -35,7 +35,7 @@ capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
-sleep_cnt = 1 # 30초간 "No mask" 상태를 확인하기 위한 변수
+nomaskdetected_cnt = 1 # 30초간 "No mask" 상태를 확인하기 위한 변수
 while True:
     ret, frame = capture.read()
     if ret == True: 
@@ -59,18 +59,18 @@ while True:
     print(prediction) # [[0.00533728 0.99466264]]
     
     if prediction[0,0] > prediction[0,1]:
-        print('no Mask 상태')
-        sleep_cnt += 1
+        print('NO MASK')
+        nomask_detected_cnt += 1
         
         # nomask 상태가 30초간 지속되면 소리
-        if sleep_cnt % 30 == 0:
-            sleep_cnt = 1
-            print('30초이상 마스크를 미착용했습니다!!!')
+        if nomask_detected_cnt % 30 == 0:
+            nomask_detected_cnt = 1
+            print('30 초이상 마스크를 미착용했습니다!!!')
             beepsound()
             break ## 1번만 알람이 오면 프로그램을 정지 시킴 (반복을 원한다면, 주석으로 막기!)
     else:
-        print('마스크 착용 상태')
-        sleep_cnt = 1
+        print('MASK ON')
+        nomask_detected_cnt = 1
     
 # 카메라 객체 반환
 capture.release() 
