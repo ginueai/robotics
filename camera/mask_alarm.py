@@ -35,7 +35,7 @@ capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
-nomaskdetected_cnt = 1 # 30초간 "No mask" 상태를 확인하기 위한 변수
+nomask_detected_cnt = 1 # 30초간 "No mask" 상태를 확인하기 위한 변수
 while True:
     ret, frame = capture.read()
     if ret == True: 
