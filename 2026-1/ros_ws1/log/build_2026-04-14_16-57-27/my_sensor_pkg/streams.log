@@ -1,0 +1,40 @@
+[0.679s] Invoking command in '/home/hypark/Development/ros_ws1/build/my_sensor_pkg': PYTHONPATH=/home/hypark/Development/ros_ws1/build/my_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build
+[0.908s] running develop
+[1.010s] Removing /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my-sensor-pkg.egg-link (link to .)
+[1.029s] Invoked command in '/home/hypark/Development/ros_ws1/build/my_sensor_pkg' returned '0': PYTHONPATH=/home/hypark/Development/ros_ws1/build/my_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build
+[1.029s] Invoking command in '/home/hypark/Development/ros_ws1/src/my_sensor_pkg': PYTHONPATH=/home/hypark/Development/ros_ws1/build/my_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_sensor_pkg build --build-base /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build install --record /home/hypark/Development/ros_ws1/build/my_sensor_pkg/install.log --single-version-externally-managed install_data --force
+[1.219s] running egg_info
+[1.228s] writing ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/PKG-INFO
+[1.228s] writing dependency_links to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/dependency_links.txt
+[1.228s] writing entry points to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/entry_points.txt
+[1.229s] writing requirements to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/requires.txt
+[1.229s] writing top-level names to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/top_level.txt
+[1.250s] reading manifest file '../../build/my_sensor_pkg/my_sensor_pkg.egg-info/SOURCES.txt'
+[1.251s] writing manifest file '../../build/my_sensor_pkg/my_sensor_pkg.egg-info/SOURCES.txt'
+[1.251s] running build
+[1.251s] running build_py
+[1.251s] creating /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build
+[1.251s] creating /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib
+[1.251s] creating /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg
+[1.251s] copying my_sensor_pkg/distance_publisher.py -> /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg
+[1.252s] copying my_sensor_pkg/distance_subscriber.py -> /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg
+[1.252s] copying my_sensor_pkg/__init__.py -> /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg
+[1.252s] running install
+[1.255s] running install_lib
+[1.266s] creating /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg
+[1.266s] copying /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg/distance_publisher.py -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg
+[1.266s] copying /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg/distance_subscriber.py -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg
+[1.266s] copying /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg/__init__.py -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg
+[1.267s] byte-compiling /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg/distance_publisher.py to distance_publisher.cpython-312.pyc
+[1.267s] byte-compiling /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg/distance_subscriber.py to distance_subscriber.cpython-312.pyc
+[1.267s] byte-compiling /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg/__init__.py to __init__.cpython-312.pyc
+[1.267s] running install_data
+[1.268s] copying resource/my_sensor_pkg -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/ament_index/resource_index/packages
+[1.268s] copying package.xml -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/my_sensor_pkg
+[1.268s] running install_egg_info
+[1.279s] Copying ../../build/my_sensor_pkg/my_sensor_pkg.egg-info to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg-0.0.0-py3.12.egg-info
+[1.280s] running install_scripts
+[1.360s] Installing distance_publisher script to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/my_sensor_pkg
+[1.360s] Installing distance_subscriber script to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/my_sensor_pkg
+[1.360s] writing list of installed files to '/home/hypark/Development/ros_ws1/build/my_sensor_pkg/install.log'
+[1.375s] Invoked command in '/home/hypark/Development/ros_ws1/src/my_sensor_pkg' returned '0': PYTHONPATH=/home/hypark/Development/ros_ws1/build/my_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_sensor_pkg build --build-base /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build install --record /home/hypark/Development/ros_ws1/build/my_sensor_pkg/install.log --single-version-externally-managed install_data --force

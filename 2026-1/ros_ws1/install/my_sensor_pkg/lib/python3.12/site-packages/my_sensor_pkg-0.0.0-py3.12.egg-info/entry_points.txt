@@ -1,0 +1,5 @@
+[console_scripts]
+distance_controller = my_sensor_pkg.distance_controller:main
+distance_publisher = my_sensor_pkg.distance_publisher:main
+distance_subscriber = my_sensor_pkg.distance_subscriber:main
+serial_bridge = my_sensor_pkg.serial_bridge_node:main

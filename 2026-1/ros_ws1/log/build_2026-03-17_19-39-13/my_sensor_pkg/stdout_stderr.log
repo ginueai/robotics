@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating my_sensor_pkg.egg-info
+writing my_sensor_pkg.egg-info/PKG-INFO
+writing dependency_links to my_sensor_pkg.egg-info/dependency_links.txt
+writing requirements to my_sensor_pkg.egg-info/requires.txt
+writing top-level names to my_sensor_pkg.egg-info/top_level.txt
+writing manifest file 'my_sensor_pkg.egg-info/SOURCES.txt'
+reading manifest file 'my_sensor_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_sensor_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my-sensor-pkg.egg-link (link to .)
+
+Installed /home/hypark/Development/ros_ws1/build/my_sensor_pkg
+running symlink_data
+creating /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/ament_index
+creating /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/ament_index/resource_index
+creating /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/hypark/Development/ros_ws1/build/my_sensor_pkg/resource/my_sensor_pkg -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/hypark/Development/ros_ws1/build/my_sensor_pkg/package.xml -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/share/my_sensor_pkg

@@ -1,0 +1,30 @@
+[0.528s] Invoking command in '/home/hypark/Development/ros_ws1/src/my_sensor_pkg': PYTHONPATH=/home/hypark/Development/ros_ws1/build/my_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_sensor_pkg build --build-base /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build install --record /home/hypark/Development/ros_ws1/build/my_sensor_pkg/install.log --single-version-externally-managed install_data
+[0.708s] running egg_info
+[0.717s] writing ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/PKG-INFO
+[0.717s] writing dependency_links to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/dependency_links.txt
+[0.717s] writing entry points to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/entry_points.txt
+[0.717s] writing requirements to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/requires.txt
+[0.717s] writing top-level names to ../../build/my_sensor_pkg/my_sensor_pkg.egg-info/top_level.txt
+[0.737s] reading manifest file '../../build/my_sensor_pkg/my_sensor_pkg.egg-info/SOURCES.txt'
+[0.738s] writing manifest file '../../build/my_sensor_pkg/my_sensor_pkg.egg-info/SOURCES.txt'
+[0.738s] running build
+[0.738s] running build_py
+[0.738s] copying my_sensor_pkg/serial_bridge_node.py -> /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg
+[0.738s] copying my_sensor_pkg/distance_controller.py -> /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg
+[0.738s] running install
+[0.741s] running install_lib
+[0.751s] copying /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg/serial_bridge_node.py -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg
+[0.751s] copying /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build/lib/my_sensor_pkg/distance_controller.py -> /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg
+[0.751s] byte-compiling /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg/serial_bridge_node.py to serial_bridge_node.cpython-312.pyc
+[0.752s] byte-compiling /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg/distance_controller.py to distance_controller.cpython-312.pyc
+[0.752s] running install_data
+[0.752s] running install_egg_info
+[0.762s] removing '/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.762s] Copying ../../build/my_sensor_pkg/my_sensor_pkg.egg-info to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages/my_sensor_pkg-0.0.0-py3.12.egg-info
+[0.763s] running install_scripts
+[0.840s] Installing distance_controller script to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/my_sensor_pkg
+[0.840s] Installing distance_publisher script to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/my_sensor_pkg
+[0.840s] Installing distance_subscriber script to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/my_sensor_pkg
+[0.840s] Installing serial_bridge script to /home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/my_sensor_pkg
+[0.840s] writing list of installed files to '/home/hypark/Development/ros_ws1/build/my_sensor_pkg/install.log'
+[0.853s] Invoked command in '/home/hypark/Development/ros_ws1/src/my_sensor_pkg' returned '0': PYTHONPATH=/home/hypark/Development/ros_ws1/build/my_sensor_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hypark/Development/ros_ws1/install/my_sensor_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_sensor_pkg build --build-base /home/hypark/Development/ros_ws1/build/my_sensor_pkg/build install --record /home/hypark/Development/ros_ws1/build/my_sensor_pkg/install.log --single-version-externally-managed install_data
